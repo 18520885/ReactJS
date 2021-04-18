@@ -1,0 +1,20 @@
+- src
+  - Components: Chứa dump comonent: (Component tái sử dụng) - Thông thường chỉ nhận props và render UI, ít sử lý logic
+  Components dùng để sử dụng bên trong các component khác, thông thường chỉ nhận props và render UI, ít sử 
+  - Pages: Chứa các components cấu thành 1 trang và có các sử lý logic bên trong những components này - Như gọi API.
+  - Hook: Chứa các custom hooks, đặt tên theo quy tắc (vd: useRequest, useUser,...)
+  - Services: Chứa các hàm gọi API - Nơi setup API
+  - Style: Nơi đặt các file CSS, SCSS.
+    + Sử dụng scss trong react: NPM i -D SASS
+  - utils: Chứa các commomn function để tái sử dụng trong project
+  - Layouts: chứa các components layout
+  - Auth: Chứa các components và các hàm xử lý liên quan đến authentication
+
+* Khi sử dụng REDUX:
+- Actions: Chứa action của redux
+- Constant: Chứa constant của Project
+- Reducer: Chứa reducer của redux
+
+
+Setup PROJECT lib: axios redux react-redux redux-thunk react-router-dom reactstrap bootstrap
+
